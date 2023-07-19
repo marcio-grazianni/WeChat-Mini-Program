@@ -1,0 +1,6 @@
+<!--pages/postDetail/postDetail.wxml-->
+<scroll-view wx:for="{{posts}}">
+  <view>
+    <text id="{{index}}">{{item.content}}</text>
+  </view>
+</scroll-view>

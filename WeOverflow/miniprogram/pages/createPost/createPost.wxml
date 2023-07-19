@@ -1,0 +1,5 @@
+<!--miniprogram/pages/createPost/createPost.wxml-->
+<form bindsubmit="submitPost" style="padding: 10px;">
+<input name="content" placeholder='Ask a qestions...' style="padding: 10px;"></input>
+<button form-type='submit'>Submit</button>
+</form>
